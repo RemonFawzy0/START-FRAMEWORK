@@ -1,0 +1,36 @@
+.portfolio{
+    color:#2C3E50;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.starportfolio{
+    text-align: center;
+    color:#2C3E50;
+    padding: 10px 0px 20px 0px;
+    position: relative;
+}
+.starportfolio::after{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:#2C3E50 ;
+    position: absolute;
+    bottom: 27px;
+    margin-left: 10px;
+}
+.starportfolio::before{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:#2C3E50 ;
+    position: absolute;
+    bottom: 27px;
+    left: 40%;
+}
+.img:hover{
+    color: chartreuse;
+}
+

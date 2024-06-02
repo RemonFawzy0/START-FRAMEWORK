@@ -1,0 +1,38 @@
+.about{
+    background-color: #1abc9c;
+}
+.h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+.starabout{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.starabout::after{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:white;
+    position: absolute;
+    bottom: 8px;
+    margin-left: 10px;
+
+
+}
+.starabout::before{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:white ;
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+}
+.aboutone{
+    color: white;
+    padding: 10px 80px 50px 80px;
+}

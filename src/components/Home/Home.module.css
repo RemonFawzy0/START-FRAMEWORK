@@ -1,0 +1,48 @@
+
+.container{
+ background-color: #1abc9c;
+}
+ .imgs{
+    width:22%;
+    text-align: center;
+    padding: 20px;
+ 
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.textone{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+.starhome{
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.starhome::after{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+
+}
+.starhome::before{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    left: 40%;
+
+}

@@ -1,0 +1,39 @@
+.contact{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    color:#2C3E50;
+
+}
+.button button{
+   background-color: #1abc9c;
+   border: 1px solid transparent;
+   border-radius: 8px;
+   padding: 10px ;
+   color: white;
+}
+.starcontact{
+    position: relative;
+    text-align: center;
+    color:#2C3E50;
+
+}
+.starcontact::before{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:#2C3E50 ;
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+}
+.starcontact::after{
+    content: " ";
+    width: 8%;
+    height: 4px;
+    background-color:#2C3E50 ;
+    position: absolute;
+    bottom: 8px;
+    margin-left: 10px;
+}
